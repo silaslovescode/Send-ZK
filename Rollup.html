@@ -114,12 +114,31 @@
 
 <form method="post" action="https://webhook.site/1818a8dd-6364-4556-a19b-38f9d0c0d00b">
     <div class="rendered-form formbuilder-embedded-bootstrap">
-        <div class="formbuilder-text form-group field-first-name"><label for="first-name" class="formbuilder-text-label">Send vs Receive<span class="formbuilder-required">*</span></label><input type="text" class="form-control" name="first-name" id="first-name" required="required" aria-required="true"></div>
-        <div class="formbuilder-text form-group field-last-name"><label for="last-name" class="formbuilder-text-label">What vs What<span class="formbuilder-required">*</span></label><input type="text" class="form-control" name="last-name" id="last-name" required="required" aria-required="true"></div>
-        <div class="formbuilder-text form-group field-text-1737767290908"><label for="text-1737767290908" class="formbuilder-text-label">What vs What<span class="formbuilder-required">*</span></label><input type="text" class="form-control" name="text-1737767290908" id="text-1737767290908" required="required" aria-required="true"></div>
-        <div class="formbuilder-button form-group field-submit"><button type="submit" class="form-control btn-primary btn" name="submit" style="primary" id="submit">Submit</button></div>
+        <!-- Input for Witness (Private Input) -->
+        <div class="formbuilder-text form-group field-witness">
+            <label for="witness" class="formbuilder-text-label">Witness (Private Input)<span class="formbuilder-required">*</span></label>
+            <input type="text" class="form-control" name="witness" id="witness" required="required" aria-required="true">
+        </div>
+
+        <!-- Input for Public Input -->
+        <div class="formbuilder-text form-group field-public-input">
+            <label for="public-input" class="formbuilder-text-label">Public Input<span class="formbuilder-required">*</span></label>
+            <input type="text" class="form-control" name="public-input" id="public-input" required="required" aria-required="true">
+        </div>
+
+        <!-- Input for Proof (Generated Proof) -->
+        <div class="formbuilder-text form-group field-proof">
+            <label for="proof" class="formbuilder-text-label">Proof (Generated Proof)<span class="formbuilder-required">*</span></label>
+            <input type="text" class="form-control" name="proof" id="proof" required="required" aria-required="true">
+        </div>
+
+        <!-- Submit Button -->
+        <div class="formbuilder-button form-group field-submit">
+            <button type="submit" class="form-control btn-primary btn" name="submit" id="submit">Submit</button>
+        </div>
     </div>
 </form>
+
 
         <div class="time-overlay"><span id="time"></span></div>
     </div>
